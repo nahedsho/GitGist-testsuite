@@ -8,7 +8,7 @@ This is a TestSuite that will test the GIST API for following scenarios:
 - Star a gist
 - Delete a gist
 
-Those test are shipped as Docker image.
+Those tests are shipped as a Docker image.
 
 ___
 ## Quick start
