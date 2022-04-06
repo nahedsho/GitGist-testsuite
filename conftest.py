@@ -1,6 +1,6 @@
 ################################ pytest_addoption ################################################
 """
-        this is a setup method will parse the --token argument from the cmd line and append it to 
+        this is a setup method that will parse the --token argument from the cmd line and append it to 
         metafunc 
 """
 def pytest_addoption(parser):
