@@ -1,4 +1,4 @@
-# Test-Suite for GIST as Docker image 'rapid7-testsuite'
+# Test-Suite for GIST API
 
 This is a TestSuite that will test the GIST API for following scenarios: 
 - Listing user gists
