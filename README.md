@@ -1,9 +1,8 @@
 # Docker image rapid7-testsuite
-==========================
+
 this image will test the GIST API requests options 
 
-
-
+___
 ## Quick start
 1. Start a Docker container with your github personal token 
 
