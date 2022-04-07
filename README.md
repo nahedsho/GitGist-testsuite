@@ -38,3 +38,7 @@ docker run -p 31031:31031 -e utoken='yourToken' nahedsh/testsuite-gist
     
 ## Allure report Screenshot 
 ![image](https://user-images.githubusercontent.com/88326271/162146417-35b35c6e-67e0-4b5f-a42f-d00d9b8bbf5c.png)
+
+## Docker container log
+![image](https://user-images.githubusercontent.com/88326271/162150762-76acbde0-4d75-4e1b-ad79-7f9f7411c7f9.png)
+
