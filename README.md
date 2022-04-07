@@ -24,14 +24,14 @@ docker run -p 31031:31031 -e utoken='yourToken' nahedsh/testsuite-gist
 
 ## Files 
 
-- Dockerfile 
+- Dockerfile : 
     this file includes the step for buiding an docker image and it includes the 
     testing script 
-- requirements.txt
+- requirements.txt :
     this file include the needed python pacakges that the script rely on
-- conftest.py
+- conftest.py : 
     this script file it all about taking the command line argument and passing it 
     to the main testing script
-- gistest.py
+- gistest.py: 
     this is the main script file it include all the methods that testing the above 
     scenarios
