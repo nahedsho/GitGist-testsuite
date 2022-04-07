@@ -35,3 +35,6 @@ docker run -p 31031:31031 -e utoken='yourToken' nahedsh/testsuite-gist
 - gistest.py: 
     this is the main script file it include all the methods that testing the above 
     scenarios
+    
+## Allure report Screenshot 
+![image](https://user-images.githubusercontent.com/88326271/162146417-35b35c6e-67e0-4b5f-a42f-d00d9b8bbf5c.png)
