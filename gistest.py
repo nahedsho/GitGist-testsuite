@@ -19,6 +19,17 @@ Dependencies:
     - allure-pytest            2.9.45
     - allure-python-commons    2.9.45
 
+Challenges: 
+    there was two challenges in this testing suite that i have to do a workaround
+    pytest.mark.skipif((pytest.mugistid == ''),reason="token in invalid"):
+        i could use this decorator for that last four method but i it will fail
+        cause this pytest decorator will evaluate at the beginning of the test
+        execution so the global parameter pytest.mugistid will be empty always,
+        so i had to do if condition inside those methods
+    pytest.mark.parametrize(pytest.mugistid,code'),[...]:
+        i could use this decorator for that last three method but the test
+        execution will get pytest.mugistid as empty always, so 
+        i had to do ugistid variable to take pytest.mugistid inside those methods
 Usage: 
     run the script name using pytest will valid token
     # pytest ./gistest.py --token="your-token" *--alluredir=./testreport
